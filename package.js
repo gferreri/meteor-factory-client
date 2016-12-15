@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.3');
-  api.use('dburles:factory@0.3.10');
+  api.use('dburles:factory@1.1.0');
   api.add_files('lib/factory-client.js');
   api.export('flushWrites', 'client');
 });
